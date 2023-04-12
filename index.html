@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Voyagers.com</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Scientific Reasearch Website" />
+    <style>
+      .image1 {
+        border-style: solid;
+        border-color: darkblue;
+        margin-left: -10px;
+        margin-top: -10px;
+        border-right-width: 295px;
+        border-color: #061d38;
+        height: 100px;
+      }
+
+      .image2 {
+        height: 281px;
+        width: 500px;
+      }
+
+      .input1 {
+        margin-left: -10px;
+        margin-top: -10px;
+        border-radius: 100px;
+      }
+
+      .input2 {
+        margin-left: -1px;
+        margin-top: -10px;
+        border-radius: 100px;
+      }
+
+      .input3 {
+        margin-left: 400px;
+        border-radius: 20px;
+      }
+
+      .box1 {
+        border-color: black;
+        background-color: #061d38;
+        height: 131px;
+        width: 728px;
+        margin-top: -135px;
+        margin-left: 850px;
+      }
+
+      /* Set height of body and the document to 100% to enable "full page tabs" */
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial;
+      }
+
+      /* Style tab links */
+      .tablink {
+        background-color: #000000;
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        font-size: 17px;
+        width: 25%;
+      }
+
+      .tablink:hover {
+        background-color: #777;
+      }
+
+      /* Style the tab content (and add height:100% for full page content) */
+      .tabcontent {
+        color: white;
+        display: none;
+        padding: 100px 20px;
+        height: 100%;
+      }
+
+      .tab1 {
+        text-align: center;
+        font-size: 80px;
+      }
+
+      .tab2 {
+        text-align: center;
+        font-size: 80px;
+      }
+
+      .tab3 {
+        text-align: center;
+        font-size: 80px;
+      }
+
+      .tab4 {
+        text-align: center;
+        font-size: 80px;
+      }
+
+      .p1 {
+        text-align: left;
+        font-size: 40px;
+      }
+
+      .p2 {
+        text-align: left;
+        font-size: 40px;
+      }
+
+      .p3 {
+        text-align: left;
+        font-size: 40px;
+      }
+
+      .p4 {
+        text-align: center;
+        font-size: 40px;
+      }
+
+      .p5 {
+        text-align: left;
+        font-size: 40px;
+      }
+
+      .p6 {
+        font-size: 40px;
+        margin-left: 600px;
+      }
+
+      .sec1 {
+        text-align: center;
+        font-size: 70px;
+      }
+
+      .sec2 {
+        font-size: 60px;
+      }
+
+      .container1 {
+        height: 281px;
+        width: 500px;
+      }
+
+      .container2 {
+        height: 281px;
+        width: 500px;
+        margin-left: 600px;
+        margin-top: -430px;
+      }
+
+      #Home {
+        background-color: black;
+      }
+
+      #News {
+        background-color: black;
+      }
+
+      #Creations {
+        background-color: black;
+      }
+
+      #AboutUs {
+        background-color: black;
+      }
+    </style>
+  </head>
+
+  <body bgcolor="black">
+    <div>
+      <image src="voyagers logo pt-2.png" alt="Website Logo" class="image1" />
+      <a href="https://discord.com/invite/MUFufNxd">
+        <input
+          type="image"
+          src="Discord logo.png"
+          alt="discord"
+          width="68"
+          height="68"
+          class="input1"
+        />
+      </a>
+      <a href="https://join.skype.com/xfmga3bLflgH">
+        <input
+          type="image"
+          src="Skype logo.png"
+          alt="skype"
+          width="68"
+          height="68"
+          class="input2"
+        />
+      </a>
+      <a href="https://www.youtube.com/channel/UCZrxaaloAz5PY2DYUTxZguQ">
+        <input
+          type="image"
+          src="Subscribe.png"
+          alt="Suscribe img"
+          width="150"
+          height="70"
+          class="input3"
+        />
+      </a>
+      <div class="box1"></div>
+    </div>
+    <div>
+      <button
+        class="tablink"
+        onclick="openPage('Home', this, 'black')"
+        id="defaultOpen"
+      >
+        Home
+      </button>
+      <button class="tablink" onclick="openPage('News', this, 'black')">
+        News
+      </button>
+      <button class="tablink" onclick="openPage('Creations', this, 'black')">
+        Creations
+      </button>
+      <button class="tablink" onclick="openPage('About Us', this, 'black')">
+        About Us
+      </button>
+    </div>
+    <div id="Home" class="tabcontent">
+      <h3 class="tab1">Home</h3>
+
+      <div class="container1">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/uD4izuDMUQA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <p class="p1">
+        Watch the timelapse of
+        <br />
+        Earth's future
+        <br />
+        (full credits to melodysheep)
+      </p>
+
+      <div class="container2">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/kBs2-J6k8vM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; 
+      clipboard-write; encrypted-media; gyroscope;
+       picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <p class="p6">
+        Watch the Earth's history
+        <br />
+        in 10 minutes
+        <br />
+        (full credits to ridddle)
+      </p>
+      <h4 class="sec1"></h4>
+    </div>
+
+    <div id="News" class="tabcontent">
+      <h3 class="tab2">News</h3>
+      <h4 class="sec2">Highlights-</h4>
+      <image
+        src="https://th.bing.com/th/id/R.9a1a5a674045b4d90d67644e7d53245d?rik=962qldMuQl4QQQ&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f1552354%2fimages%2fo-INTERNATIONAL-SPACE-STATION-facebook.jpg&ehk=Br4lROsHEyAEenJeGnKp8OXXuGOC%2f0oKsIY7RJkN80U%3d&risl=&pid=ImgRaw&r=0"
+        alt="Space Tug"
+        class="image2"
+      />
+      <p class="p2">
+        NASA to make ‘space tug’ as it
+        <br />
+        seeks to retire International
+        <br />
+        Space Station by 2030.
+      </p>
+      <image
+        src="https://www.sciencealert.com/images/2023/01/IllustrationOfNuclearRocketInLowOrbitOverEarth.jpg"
+        alt="news img"
+        class="image3"
+        height="300px"
+        width="600px"
+      />
+      <p class="p5">
+        NASA will be funding a nuclear powered
+        <br />
+        rocket, Bimodal Nuclear Thermal Rocket,
+        <br />
+        that could cut people's journey to Mars from
+        <br />
+        7 months to just 45 days. The rocket will be
+        <br />
+        capable of transporting both humans and
+        <br />
+        cargo across the Solar System.
+      </p>
+    </div>
+
+    <div id="Creations" class="tabcontent">
+      <h3 class="tab3">Creations</h3>
+      <image
+        src="https://voyager.jpl.nasa.gov/assets/images/news/1-voyager-illustration-updated.original.jpg"
+        alt="voyager-1"
+        class="image4"
+        height="400px"
+        width="800px"
+      />
+      <p class="p3">Voyager-1(Completed)</p>
+    </div>
+
+    <div id="About Us" class="tabcontent">
+      <h3 class="tab4">About Us</h3>
+      <p class="p4">
+        This community is only for reasearch purpose.
+        <br />
+        For contact join the discord/skype servers.
+        <br />
+        <br />
+        <br />
+        ROLES:Astroverse(captain), Roger_1241(Vice Captain/UI Designer),
+        Racer(UI Designer), BobThePenguin(Member), Spider Iron(Member)
+        <br />
+        These names are Id's and not real because we don't want to reavel real
+        names.
+        <br />
+        <br />
+        <br />
+        &#169; Voyagers.com All Rights Reserved.
+      </p>
+    </div>
+
+    <script>
+      function openPage(pageName, elmnt, color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+</html>
