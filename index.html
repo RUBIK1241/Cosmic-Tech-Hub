@@ -1,553 +1,552 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Voyagers.com</title>
-    <meta charset="UTF-8" />
-    <link rel="shortcut icon" type="x-icon" href="V logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Scientific Research Website" />
-    <style>
-      .voyagerscomlogo {
-        border-style: solid;
-        border-color: darkblue;
-        margin-left: -10px;
-        margin-top: -10px;
-        border-right-width: 295px;
-        border-color: #061d38;
-        height: 100px;
-      }
 
-      .spacetug {
-        height: 281px;
-        width: 500px;
-      }
+<head>
+  <title>Voyagers.com</title>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" type="x-icon" href="V logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Scientific Research Website" />
+  <style>
+    .voyagerscomlogo {
+      border-style: solid;
+      border-color: darkblue;
+      margin-left: -10px;
+      margin-top: -10px;
+      border-right-width: 295px;
+      border-color: #061d38;
+      height: 100px;
+    }
 
-      .whatsappbutton {
-        border-radius: 10px;
-      }
+    .spacetug {
+      height: 281px;
+      width: 500px;
+    }
 
-      .skypebutton {
-        border-radius: 10px;
-      }
+    .whatsappbutton {
+      border-radius: 10px;
+    }
 
-      .subscribebutton {
-        margin-left: 400px;
-      }
+    .skypebutton {
+      border-radius: 10px;
+    }
 
-      .poebotbutton {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        border-radius: 100px;
-      }
+    .subscribebutton {
+      margin-left: 400px;
+    }
 
-      .box1 {
-        border-color: black;
-        background-color: #061d38;
-        height: 131px;
-        width: device-width;
-        margin-top: -135px;
-        margin-left: 850px;
-      }
+    .poebotbutton {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      border-radius: 100px;
+    }
 
-      /* Set height of body and the document to 100% to enable "full page tabs" */
-      body,
-      html {
-        height: 100%;
-        margin: 0;
-        font-family: Arial;
-      }
+    .box1 {
+      border-color: black;
+      background-color: #061d38;
+      height: 131px;
+      width: device-width;
+      margin-top: -135px;
+      margin-left: 850px;
+    }
 
-      /* Style tab links */
-      .tablink {
-        background-color: #000066;
-        color: white;
-        float: left;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 14px 16px;
-        font-size: 17px;
-        width: 20%;
-      }
+    /* Set height of body and the document to 100% to enable "full page tabs" */
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial;
+    }
 
-      .tablink:hover {
-        background-color: #777;
-      }
+    /* Style tab links */
+    .tablink {
+      background-color: #000066;
+      color: white;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      font-size: 17px;
+      width: 20%;
+    }
 
-      /* Style the tab content (and add height:100% for full page content) */
-      .tabcontent {
-        color: white;
-        display: none;
-        padding: 100px 20px;
-        height: 100%;
-      }
+    .tablink:hover {
+      background-color: #777;
+    }
 
-      .tab1 {
-        text-align: center;
-        font-size: 80px;
-      }
+    /* Style the tab content (and add height:100% for full page content) */
+    .tabcontent {
+      color: white;
+      display: none;
+      padding: 100px 20px;
+      height: 100%;
+    }
 
-      .tab2 {
-        text-align: center;
-        font-size: 80px;
-      }
+    .tab1 {
+      text-align: center;
+      font-size: 80px;
+    }
 
-      .tab3 {
-        text-align: center;
-        font-size: 80px;
-      }
+    .tab2 {
+      text-align: center;
+      font-size: 80px;
+    }
 
-      .tab4 {
-        text-align: center;
-        font-size: 80px;
-      }
+    .tab3 {
+      text-align: center;
+      font-size: 80px;
+    }
 
-      .tab5 {
-        text-align: center;
-        font-size: 80px;
-      }
+    .tab4 {
+      text-align: center;
+      font-size: 80px;
+    }
 
-      .p1 {
-        text-align: left;
-        font-size: 40px;
-      }
+    .tab5 {
+      text-align: center;
+      font-size: 80px;
+    }
 
-      .p2 {
-        text-align: left;
-        font-size: 40px;
-      }
+    .p1 {
+      text-align: left;
+      font-size: 40px;
+    }
 
-      .p3 {
-        text-align: left;
-        font-size: 40px;
-      }
+    .p2 {
+      text-align: left;
+      font-size: 40px;
+    }
 
-      .p4 {
-        text-align: center;
-        font-size: 40px;
-      }
+    .p3 {
+      text-align: left;
+      font-size: 40px;
+    }
 
-      .p5 {
-        text-align: left;
-        font-size: 40px;
-      }
+    .p4 {
+      text-align: center;
+      font-size: 40px;
+    }
 
-      .p6 {
-        font-size: 40px;
-        margin-left: 600px;
-      }
+    .p5 {
+      text-align: left;
+      font-size: 40px;
+    }
 
-      .p7 {
-        text-align: left;
-        font-size: 40px;
-      }
+    .p6 {
+      font-size: 40px;
+      margin-left: 600px;
+    }
 
-      .p8 {
-        text-align: left;
-        font-size: 40px;
-      }
+    .p7 {
+      text-align: left;
+      font-size: 40px;
+    }
 
-      .p9 {
-        font-size: 40px;
-        margin-left: 600px;
-      }
+    .p8 {
+      text-align: left;
+      font-size: 40px;
+    }
 
-      .p10 {
-        text-align: left;
-        font-size: 40px;
-      }
+    .p9 {
+      font-size: 40px;
+      margin-left: 600px;
+    }
 
-      .p11 {
-        text-align: left;
-        font-size: 40px;
-      }
+    .p10 {
+      text-align: left;
+      font-size: 40px;
+    }
 
-      .p12 {
-        text-align: left;
-        font-size: 40px;
-      }
+    .p11 {
+      text-align: left;
+      font-size: 40px;
+    }
 
-      .sec1 {
-        text-align: center;
-        font-size: 70px;
-      }
+    .p12 {
+      text-align: left;
+      font-size: 40px;
+    }
 
-      .sec2 {
-        font-size: 60px;
-      }
+    .sec1 {
+      text-align: center;
+      font-size: 70px;
+    }
 
-      .container1 {
-        height: 281px;
-        width: 500px;
-      }
+    .sec2 {
+      font-size: 60px;
+    }
 
-      .container2 {
-        height: 281px;
-        width: 500px;
-        margin-left: 600px;
-        margin-top: -430px;
-      }
+    .container1 {
+      height: 281px;
+      width: 500px;
+    }
 
-      .container3 {
-        height: 281px;
-        width: 500px;
-      }
+    .container2 {
+      height: 281px;
+      width: 500px;
+      margin-left: 600px;
+      margin-top: -430px;
+    }
 
-      .container4 {
-        height: 281px;
-        width: 500px;
-        margin-left: 600px;
-        margin-top: -249px;
-      }
+    .container3 {
+      height: 281px;
+      width: 500px;
+    }
 
-      .container5 {
-        height: 281px;
-        width: 500px;
-      }
+    .container4 {
+      height: 281px;
+      width: 500px;
+      margin-left: 600px;
+      margin-top: -249px;
+    }
 
-      #Home {
-        body-background: outer-space.jpg;
-      }
+    .container5 {
+      height: 281px;
+      width: 500px;
+    }
 
-      #News {
-        body-background: outer-space.jpg;
-      }
+    .mainmovinggallery {
+      display: flex;
+      overflow: hidden;
+    }
 
-      #Calendar {
-        body-background: outer-space.jpg;
-      }
+    .movinggallery {
+      width: 500px;
+      transition: transform 0.5s ease-in-out;
+    }
 
-      #Blogs {
-        body-background: outer-space.jpg;
-      }
+    .gallerybuttons {
+      margin-top: 10px;
+    }
 
-      #AboutUs {
-        body-background: outer-space.jpg;
-      }
-    </style>
-  </head>
+    #Home {
+      body-background: outer-space.jpg;
+    }
 
-  <body body background="outer-space.jpg">
-    <div>
-      <image
-        src="voyagers logo pt-2.png"
-        alt="Website Logo"
-        class="voyagerscomlogo"
-      />
-         
-      <a href="https://www.youtube.com/channel/UCZrxaaloAz5PY2DYUTxZguQ">
-        <input
-          type="image"
-          src="Subscribe.png"
-          alt="Suscribe img"
-          class="subscribebutton"
-          width="250"
-          height="60"
-        />
-      </a>
-      <div class="box1"></div>
-    </div>
+    #News {
+      body-background: outer-space.jpg;
+    }
+
+    #Calendar {
+      body-background: outer-space.jpg;
+    }
+
+    #Blogs {
+      body-background: outer-space.jpg;
+    }
+
+    #AboutUs {
+      body-background: outer-space.jpg;
+    }
+  </style>
+</head>
+
+<body body background="outer-space.jpg">
+  <div>
+    <image src="voyagers logo pt-2.png" alt="Website Logo" class="voyagerscomlogo" />
+
+    <a href="https://www.youtube.com/channel/UCZrxaaloAz5PY2DYUTxZguQ">
+      <input type="image" src="Subscribe.png" alt="Suscribe img" class="subscribebutton" width="250" height="60" />
+    </a>
+    <div class="box1"></div>
+  </div>
   <a href="https://poe.com/Voyagers_bot">
     <input type="image" src="V logo.png" alt="Poe bot img" class="poebotbutton" width="70" height="70">
   </a>
-    <div>
-      <button class="tablink"onclick="openPage('Home', this, 'black')"id="defaultOpen">
-        Home
-      </button>
-      <button class="tablink" onclick="openPage('News', this, 'black')">
-        News
-      </button>
-      <button class="tablink" onclick="openPage('Calendar', this, 'black')">
-        Calendar
-      </button>
-      <button class="tablink" onclick="openPage('Blog', this, 'black')">
-        Blog
-      </button>
-      <button class="tablink" onclick="openPage('About Us', this, 'black')">
-        About Us
-      </button>
+
+  <div class="mainmovinggallery">
+    <img class="movinggallery"
+      src="https://voyager.jpl.nasa.gov/assets/images/news/1-voyager-illustration-updated.original.jpg" alt="Voyager-1">
+    <img class="movinggallery"
+      src="https://www.geospatialworld.net/news/spacex-value-increases-with-continuous-achievements/" alt="SpaceX">
+    <img class="movinggallery"
+      src="https://www.khaleejtimes.com/space/upcoming-uae-space-missions-you-need-to-know-as-sultan-alneyadi-returns-to-earth"
+      alt="Astronaut in space">
+    <!-- Add more images as needed -->
+  </div>
+  <button class="gallerybuttons" id="prevBtn">Previous</button>
+  <button class="gallerybuttons" id="nextBtn">Next</button>
+
+  <div>
+    <button class="tablink" onclick="openPage('Home', this, 'black')" id="defaultOpen">
+      Home
+    </button>
+    <button class="tablink" onclick="openPage('News', this, 'black')">
+      News
+    </button>
+    <button class="tablink" onclick="openPage('Calendar', this, 'black')">
+      Calendar
+    </button>
+    <button class="tablink" onclick="openPage('Blog', this, 'black')">
+      Blog
+    </button>
+    <button class="tablink" onclick="openPage('About Us', this, 'black')">
+      About Us
+    </button>
+  </div>
+  <div id="Home" class="tabcontent">
+    <h3 class="tab1">Home</h3>
+
+    <div class="container1">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uD4izuDMUQA" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
     </div>
-    <div id="Home" class="tabcontent">
-      <h3 class="tab1">Home</h3>
 
-      <div class="container1">
-        <iframe
-          width="100%"
-          height="100%"
-          src="https://www.youtube.com/embed/uD4izuDMUQA"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
+    <p class="p1">
+      Watch how will the
+      <br />
+      Earth be in the future
+      <br />
+      (full credits to melodysheep).
+    </p>
 
-      <p class="p1">
-        Watch how will the
-        <br />
-        Earth be in the future
-        <br />
-        (full credits to melodysheep).
-      </p>
-
-      <div class="container2">
-        <iframe
-          width="100%"
-          height="100%"
-          src="https://www.youtube.com/embed/kBs2-J6k8vM"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; 
+    <div class="container2">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/kBs2-J6k8vM" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; 
       clipboard-write; encrypted-media; gyroscope;
-       picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
-
-      <p class="p6">
-        Watch how the Earth was
-        <br />
-        formed in 10 minutes
-        <br />
-        (full credits to Ridddle).
-      </p>
-
-      <div class="container3">
-        <iframe
-          width="100%"
-          height="100%"
-          src="https://www.youtube.com/embed/U6VBV4QUMu0"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; 
-        encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
-
-      <p class="p8">
-        This is one of the many
-        <br />
-        unknown rules of odd numbers
-        <br />
-        (full credits to Vsauce).
-      </p>
-
-      <div class="container4">
-        <iframe
-          width="100%"
-          height="100%"
-          src="https://www.youtube.com/embed/IJhgZBn-LHg"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write;
-        encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
-
-      <p class="p9">
-        This is how the earth
-        <br />
-        actually moves
-        <br />
-        (full credits to Vsauce).
-      </p>
-
-      <h4 class="sec1">Gallery</h4>
-      <image
-        src="https://voyager.jpl.nasa.gov/assets/images/news/1-voyager-illustration-updated.original.jpg"
-        alt="voyager-1"
-        class="image4"
-        height="400px"
-        width="800px"
-      />
-      <p class="p7">Voyager-1(Completed)</p>
+       picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
-    <div id="News" class="tabcontent">
-      <h3 class="tab2">News</h3>
-      <h4 class="sec2">Highlights(Snippets)-</h4>
-      <image
-        src="https://th.bing.com/th/id/R.9a1a5a674045b4d90d67644e7d53245d?rik=962qldMuQl4QQQ&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f1552354%2fimages%2fo-INTERNATIONAL-SPACE-STATION-facebook.jpg&ehk=Br4lROsHEyAEenJeGnKp8OXXuGOC%2f0oKsIY7RJkN80U%3d&risl=&pid=ImgRaw&r=0"
-        alt="Space Tug"
-        class="spacetug"
-      />
-      <p class="p2">
-        NASA to make ‘space tug’ as it
-        <br />
-        seeks to retire International
-        <br />
-        Space Station by 2030.
-      </p>
-      <image
-        src="https://www.sciencealert.com/images/2023/01/IllustrationOfNuclearRocketInLowOrbitOverEarth.jpg"
-        alt="news img"
-        class="bntr"
-        height="300px"
-        width="600px"
-      />
-      <p class="p5">
-        NASA will be funding a nuclear powered
-        <br />
-        rocket, Bimodal Nuclear Thermal Rocket,
-        <br />
-        that could cut people's journey to Mars from
-        <br />
-        7 months to just 45 days. The rocket will be
-        <br />
-        capable of transporting both humans and
-        <br />
-        cargo across the Solar System.
-      </p>
+    <p class="p6">
+      Watch how the Earth was
+      <br />
+      formed in 10 minutes
+      <br />
+      (full credits to Ridddle).
+    </p>
 
-      <p class="p10">
-        NASA and Boeing hosted a media teleconference on
-        <br />
-        June 1 to provide an update on the agency's
-        <br />
-        Boeing Crew Flight Test (CFT) to the International
-        <br />
-        Space Station-the first flight with astronauts
-        <br />
-        on the company's CST-100 Starliner spacecraft.
-        <br />
-        Scientists from NASA's Jet Propulsion Laboratory (JPL) in Pasadena, California, announced today the discovery of a new moon orbiting Neptune.
-        <br />
-        The moon was discovered on Wednesday, July 5, when photos returned from the Voyager 2 probe en route to Neptune showed it. The new moon, <br />dubbed 1989 N1, was first detected in Voyager 2 photographs beamed to Earth in mid-June. Images of the small body in its expected orbit later proved its existence.
-        <br />
-        Dr. Stephen P. Synnott of JPL's Voyager imaging team discovered the faint, bright smudge in Voyager images that led to the moon's discovery.<br /> The new Neptunian satellite, according to Synnott, could have a diameter of 200 to 600 kilometers (approximately 125 to 400 miles) and circles around Neptune.
-      </p>
+    <div class="container3">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/U6VBV4QUMu0" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
-    <div id="Calendar" class="tabcontent">
-      <h3 class="tab3">Calendar</h3>
-      <p class="p3">
-        28–29 October 2023 Partial Lunar Eclipse
-        <br />
-        Visible in Europe, Asia, Australia, Africa, North America, Much of South
-        America, Pacific, Atlantic, Indian Ocean, Arctic, Antarctica.
-        <br />
-        Path Map | 3D Path Globe | Eclipse Information
-        <br />
-        <br />
-        24–25 March 2024 Penumbral Lunar Eclipse
-        <br />
-        Visible in Much of Europe, North/East Asia, Much of Australia, Much of
-        Africa, North America, South America, Pacific, Atlantic, Arctic,
-        Antarctica.
-        <br />
-        Path Map | 3D Path Globe | Eclipse Information
-        <br />
-        <br />
-        8 April 2024 Total Solar Eclipse
-        <br />
-        Visible in West in Europe, North America, North in South America,
-        Pacific, Atlantic, Arctic.
-        <br />
-        Path Map | 3D Path Globe | Eclipse Information
-        <br />
-        <br />
-        17–18 September 2024 Partial Lunar Eclipse
-        <br />
-        Visible in Europe, Much of Asia, Africa, North America, South America,
-        Pacific, Atlantic, Indian Ocean, Arctic, Antarctica.
-        <br />
-        Path Map | 3D Path Globe | Eclipse Information
-        <br />
-        <br />
-        2 October 2024 Annular Solar Eclipse
-        <br />
-        Visible in South in North America, Much of South America, Pacific,
-        Atlantic, Antarctica.
-        <br />
-        Path Map | 3D Path Globe | Eclipse Information
-      </p>
+    <p class="p8">
+      This is one of the many
+      <br />
+      unknown rules of odd numbers
+      <br />
+      (full credits to Vsauce).
+    </p>
+
+    <div class="container4">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/IJhgZBn-LHg" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
-    <div id="About Us" class="tabcontent">
-      <h3 class="tab4">About Us</h3>
-      <p class="p4">
-        This community is only for research purpose.
-        <br />
-        For contact join the whatsapp/skype servers.
-        <br />
-        <br />
-        <a href="https://chat.whatsapp.com/HLqzjiwi1LyIJ0s64XPuZp">
-          <input
-            type="image"
-            src="Whatsapp logo.png"
-            alt="whatsapp"
-            width="50"
-            height="50"
-            class="whatsappbutton"
-          />
-        </a>
+    <p class="p9">
+      This is how the earth
+      <br />
+      actually moves
+      <br />
+      (full credits to Vsauce).
+    </p>
 
-        <a href="https://join.skype.com/xfmga3bLflgH">
-          <input
-            type="image"
-            src="Skype logo.png"
-            alt="skype"
-            width="50"
-            height="50"
-            class="skypebutton"
-          />
-        </a>
-        <br />
-        <br />
-        ROLES:Astroverse(CEO/Founder/AI manager), Roger_1241(Co-Founder/CTO/COO),
-        Tommy(CFO/Confict Manager), Straw Hat Luffy(Researcher), Spider
-        Iron(Advertising Manager), Samm(Researcher), Got Flipped(Main Video Editor),
-        Mugiwara Captain Luffy(Research captain),Vini(Social Media manager),
-        Pun Champ(Junior Researcher)
-  
-        
-        <br />
-        These names are Id's and not real because we don't want to reveal real
-        names.
-        <br />
-        <br />
-        <br />
-        &#169; Voyagers Version:5.0 All Rights ReservedTM.
-      </p>
-    </div>
+    <h4 class="sec1">Gallery</h4>
+    <image src="https://voyager.jpl.nasa.gov/assets/images/news/1-voyager-illustration-updated.original.jpg"
+      alt="voyager-1" class="image4" height="400px" width="800px" />
+    <p class="p7">Voyager-1(Completed)</p>
+  </div>
 
-    <div id="Blog" class="tabcontent">
-      <h3 class="tab5">Blog</h3>
-      <p class="p11">This is where we post our own videos.</p>
-      <div class="container5">
-        <iframe width="100%" height="100%"
-          src="https://www.youtube.com/embed/me3meu334n4"
-          title="YouTube video player" frameborder="0" allow="accelerometer;
+  <div id="News" class="tabcontent">
+    <h3 class="tab2">News</h3>
+    <h4 class="sec2">Highlights(Snippets)-</h4>
+    <image
+      src="https://th.bing.com/th/id/R.9a1a5a674045b4d90d67644e7d53245d?rik=962qldMuQl4QQQ&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f1552354%2fimages%2fo-INTERNATIONAL-SPACE-STATION-facebook.jpg&ehk=Br4lROsHEyAEenJeGnKp8OXXuGOC%2f0oKsIY7RJkN80U%3d&risl=&pid=ImgRaw&r=0"
+      alt="Space Tug" class="spacetug" />
+    <p class="p2">
+      NASA to make ‘space tug’ as it
+      <br />
+      seeks to retire International
+      <br />
+      Space Station by 2030.
+    </p>
+    <image src="https://www.sciencealert.com/images/2023/01/IllustrationOfNuclearRocketInLowOrbitOverEarth.jpg"
+      alt="news img" class="bntr" height="300px" width="600px" />
+    <p class="p5">
+      NASA will be funding a nuclear powered
+      <br />
+      rocket, Bimodal Nuclear Thermal Rocket,
+      <br />
+      that could cut people's journey to Mars from
+      <br />
+      7 months to just 45 days. The rocket will be
+      <br />
+      capable of transporting both humans and
+      <br />
+      cargo across the Solar System.
+    </p>
+
+    <p class="p10">
+      NASA and Boeing hosted a media teleconference on
+      <br />
+      June 1 to provide an update on the agency's
+      <br />
+      Boeing Crew Flight Test (CFT) to the International
+      <br />
+      Space Station-the first flight with astronauts
+      <br />
+      on the company's CST-100 Starliner spacecraft.
+      <br />
+      Scientists from NASA's Jet Propulsion Laboratory (JPL) in Pasadena, California, announced today the discovery of a
+      new moon orbiting Neptune.
+      <br />
+      The moon was discovered on Wednesday, July 5, when photos returned from the Voyager 2 probe en route to Neptune
+      showed it. The new moon, <br />dubbed 1989 N1, was first detected in Voyager 2 photographs beamed to Earth in
+      mid-June. Images of the small body in its expected orbit later proved its existence.
+      <br />
+      Dr. Stephen P. Synnott of JPL's Voyager imaging team discovered the faint, bright smudge in Voyager images that
+      led to the moon's discovery.<br /> The new Neptunian satellite, according to Synnott, could have a diameter of 200
+      to 600 kilometers (approximately 125 to 400 miles) and circles around Neptune.
+    </p>
+  </div>
+
+  <div id="Calendar" class="tabcontent">
+    <h3 class="tab3">Calendar</h3>
+    <p class="p3">
+      28–29 October 2023 Partial Lunar Eclipse
+      <br />
+      Visible in Europe, Asia, Australia, Africa, North America, Much of South
+      America, Pacific, Atlantic, Indian Ocean, Arctic, Antarctica.
+      <br />
+      Path Map | 3D Path Globe | Eclipse Information
+      <br />
+      <br />
+      24–25 March 2024 Penumbral Lunar Eclipse
+      <br />
+      Visible in Much of Europe, North/East Asia, Much of Australia, Much of
+      Africa, North America, South America, Pacific, Atlantic, Arctic,
+      Antarctica.
+      <br />
+      Path Map | 3D Path Globe | Eclipse Information
+      <br />
+      <br />
+      8 April 2024 Total Solar Eclipse
+      <br />
+      Visible in West in Europe, North America, North in South America,
+      Pacific, Atlantic, Arctic.
+      <br />
+      Path Map | 3D Path Globe | Eclipse Information
+      <br />
+      <br />
+      17–18 September 2024 Partial Lunar Eclipse
+      <br />
+      Visible in Europe, Much of Asia, Africa, North America, South America,
+      Pacific, Atlantic, Indian Ocean, Arctic, Antarctica.
+      <br />
+      Path Map | 3D Path Globe | Eclipse Information
+      <br />
+      <br />
+      2 October 2024 Annular Solar Eclipse
+      <br />
+      Visible in South in North America, Much of South America, Pacific,
+      Atlantic, Antarctica.
+      <br />
+      Path Map | 3D Path Globe | Eclipse Information
+    </p>
+  </div>
+
+  <div id="About Us" class="tabcontent">
+    <h3 class="tab4">About Us</h3>
+    <p class="p4">
+      This community is only for research purpose.
+      <br />
+      For contact join the whatsapp/skype servers.
+      <br />
+      <br />
+      <a href="https://chat.whatsapp.com/HLqzjiwi1LyIJ0s64XPuZp">
+        <input type="image" src="Whatsapp logo.png" alt="whatsapp" width="50" height="50" class="whatsappbutton" />
+      </a>
+
+      <a href="https://join.skype.com/xfmga3bLflgH">
+        <input type="image" src="Skype logo.png" alt="skype" width="50" height="50" class="skypebutton" />
+      </a>
+      <br />
+      <br />
+      ROLES:Astroverse(CEO/Founder/AI manager), Roger_1241(Co-Founder/CTO/COO),
+      Tommy(CFO/Confict Manager), Straw Hat Luffy(Researcher), Spider
+      Iron(Advertising Manager), Samm(Researcher), Got Flipped(Main Video Editor),
+      Mugiwara Captain Luffy(Research captain),Vini(Social Media manager),
+      Pun Champ(Junior Researcher)
+
+
+      <br />
+      These names are Id's and not real because we don't want to reveal real
+      names.
+      <br />
+      <br />
+      <br />
+      &#169; Voyagers Version:5.0 All Rights ReservedTM.
+    </p>
+  </div>
+
+  <div id="Blog" class="tabcontent">
+    <h3 class="tab5">Blog</h3>
+    <p class="p11">This is where we post our own videos.</p>
+    <div class="container5">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/me3meu334n4" title="YouTube video player"
+        frameborder="0" allow="accelerometer;
           autoplay; clipboard-write; encrypted-media; gyroscope;
           picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-      <p class="p12">
-        Watch the introduction
-        <br />
-        video of our website.
-      </p>
     </div>
+    <p class="p12">
+      Watch the introduction
+      <br />
+      video of our website.
+    </p>
+  </div>
+  <script>
+    const gallery = document.querySelector('.mainmovinggallery');
+    const images = document.querySelectorAll('.movinggallery');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let currentIndex = 0;
 
-    <script>
-      function openPage(pageName, elmnt, color) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablink");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].style.backgroundColor = "";
-        }
-        document.getElementById(pageName).style.display = "block";
-        elmnt.style.backgroundColor = color;
+    function showImage(index) {
+      images.forEach((img, i) => {
+        img.style.transform = `translateX(${100 * (i - index)}%)`;
+      });
+    }
+
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImage(currentIndex);
+    }
+
+    function prevImage() {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImage(currentIndex);
+    }
+
+    nextBtn.addEventListener('click', nextImage);
+    prevBtn.addEventListener('click', prevImage);
+
+    // Optional: Automatically advance the gallery
+    // setInterval(nextImage, 5000); // Change image every 5 seconds
+  </script>
+  <script>
+    function openPage(pageName, elmnt, color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
       }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
 
-      // Get the element with id="defaultOpen" and click on it
-      document.getElementById("defaultOpen").click();
-    </script>
-  </body>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+</body>
+
 </html>
