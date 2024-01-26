@@ -292,7 +292,7 @@
   <button id="songButton" onclick="toggleSong()">Play Song</button>
 
   <!-- Hidden audio element for the song -->
-  <audio id="song" src=""></audio>
+  <audio id="song" src="Tobu Candyland NCS no copyright.mp3"></audio>
 
     
     <div class="container1">
@@ -499,6 +499,33 @@
       &#169; Space Tech Hub Version:7.0 All Rights Reserved &#8482;
     </p>
   </div>
+      
+  <script>
+    // Get the audio element
+    var song = document.getElementById("song");
+
+    // Get the button element
+    var songButton = document.getElementById("songButton");
+
+    // Variable to track the song state (playing or paused)
+    var isPlaying = false;
+
+    // Function to toggle the song state (play/pause)
+    function toggleSong() {
+        if (isPlaying) {
+            // If the song is playing, pause it
+            song.pause();
+            songButton.innerText = "Play Song";
+        } else {
+            // If the song is paused, play it
+            song.play();
+            songButton.innerText = "Pause Song";
+        }
+
+        // Toggle the isPlaying variable
+        isPlaying = !isPlaying;
+    }
+  </script>
       
   <script>
     const gallery = document.querySelector('.mainmovinggallery');
