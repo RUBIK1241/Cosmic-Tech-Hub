@@ -217,6 +217,14 @@
       width: 49.8%;
     }
 
+    /* Style the buttons */
+    #songButton, #resetButton {
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
     #Home &#x1F3E0; {
       body-background: Voyagers-pro backround.png;
     }
@@ -291,8 +299,12 @@
   <!-- Button to play/pause the song -->
   <button id="songButton" onclick="toggleSong()">Play Song</button>
 
+  <!-- Button to reset the song -->
+  <button id="resetButton" onclick="resetSong()">Reset</button>
+
   <!-- Hidden audio element for the song -->
   <audio id="song" src="Tobu Candyland NCS no copyright.mp3"></audio>
+
 
     
     <div class="container1">
@@ -504,8 +516,9 @@
     // Get the audio element
     var song = document.getElementById("song");
 
-    // Get the button element
+    // Get the button elements
     var songButton = document.getElementById("songButton");
+    var resetButton = document.getElementById("resetButton");
 
     // Variable to track the song state (playing or paused)
     var isPlaying = false;
@@ -525,8 +538,17 @@
         // Toggle the isPlaying variable
         isPlaying = !isPlaying;
     }
+
+    // Function to reset the song
+    function resetSong() {
+        // Stop the song and set play button to its initial state
+        song.pause();
+        song.currentTime = 0;
+        songButton.innerText = "Play Song";
+        isPlaying = false;
+    }
   </script>
-      
+
   <script>
     const gallery = document.querySelector('.mainmovinggallery');
     const images = document.querySelectorAll('.movinggallery');
