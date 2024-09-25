@@ -38,7 +38,6 @@ html {
   height: 100%;
   margin: 0;
   font-family: Arial;
-  background-image: url('cosmictechhubbg.png');
 }
 
 /* Style tab links */
@@ -147,19 +146,19 @@ html {
 }
 
 #Home {
-  background-image: url('cosmictechhubbg.png');
+  background-image: cosmictechhubbg;
 }
 
 #News {
-  background-image: url('cosmictechhubbg.png');
+  background-image: cosmictechhubbg;
 }
 
 #Products {
-  background-image: url('cosmictechhubbg.png');
+  background-image: cosmictechhubbg;
 }
 
 #About Us {
-  background-image: url('cosmictechhubbg.png');
+  background-image: cosmictechhubbg;
 }
 
 #songList {
