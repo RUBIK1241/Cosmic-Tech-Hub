@@ -146,19 +146,19 @@ html {
 }
 
 #Home {
-  background-image: cosmictechhubbg.png;
+  background-image: url("cosmictechhubbg.png");
 }
 
 #News {
-  background-image: cosmictechhubbg.png;
+  background-image: url("cosmictechhubbg.png");
 }
 
 #Products {
-  background-image: cosmictechhubbg.png;
+  background-image: url("cosmictechhubbg.png");
 }
 
 #About Us {
-  background-image: cosmictechhubbg.png;
+  background-image: url("cosmictechhubbg.png");
 }
 
 #songList {
